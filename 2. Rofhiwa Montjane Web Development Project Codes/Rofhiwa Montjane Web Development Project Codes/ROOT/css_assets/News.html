@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css_assets/TacticsInIT.css" rel="stylesheet" type="text/css"/>
+    <title>News</title>
+</head>
+<body>
+
+    <header>
+     
+        <a href="Homepage.html">
+            <img class="logo" src="_images\logo\TacticsInTechITLogo.png" width="150"/>
+        </a>
+
+        <nav class="nav__header container">
+            <ul class="header__menu">
+                <li><a class="header__link" href="Homepage.html">Homepage</a> </li>
+                <li><a class="header__link" href="About Us.html">About Us</a> </li>                
+                <li><a class="header__link" href="Products and Services.html">Products and Services</a> </li>
+                <li><a class="header__link" href="News.html">News</a> </li>               
+                <li><a class="header__link" href="Contact Us.html">Contact Us</a> </li>
+            </ul>
+
+            <div class="mobile-nav">
+                <nav>
+                    <ul class="mobile-nav__menu">
+                        <li><a class="mobile-nav__link" href="Homepage.html">Homepage</a></li>
+                        <li><a class="mobile-nav__link" href="About Us.html">About Us</a></li>
+                        <li><a class="mobile-nav__link" href="Products and Services.html">Products and Services</a></li>
+                        <li><a class="mobile-nav__link" href="News.html">News</a></li>
+                        <li><a class="mobile-nav__link" href="Contact Us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- <button class="header__bars"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button> -->
+        </nav>
+        <hr>
+    </header>
+
+
+    <main>
+        <Section class="section">
+            <h1>TacticsInTechIT News</h1>
+            
+            <h2>Our workshop schedule for the next month is as follows:</h2>
+            <img class="lightboxTrigger" src="_images/pages/news/Workshop.jpg" alt="Workshop" width="800" height="400">
+
+
+            <table border="1">
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Topic</th>
+                    <th>Location</th>
+                    <th>Registration</th>
+                </tr>
+
+                <tr>
+                    <td>15 September 2023</td>
+                    <td>10:00 - 12:00</td>
+                    <td>Basic Troubleshooting for Household Appliances</td>
+                    <td>Mamelodi Community Hall</td>
+                    <td><a href="Contact Us.html">Register Here</a></td>
+                </tr>
+
+                <tr>
+                    <td>22 September 2023</td>
+                    <td>14:00 - 16:00</td>
+                    <td>Device Maintenance for ICT Assets</td>
+                    <td>Soshanguve Library</td>
+                    <td><a href="Contact Us.html">Register Here</a></td>
+                </tr>
+                  
+                <tr>
+                    <td>29 September 2023</td>
+                    <td>10:00 - 12:00</td>
+                    <td>Data Security for Phones and Laptops</td>
+                    <td>Atteridgeville Multipurpose Centre</td>
+                    <td><a href="Contact Us.html">Register Here</a></td>
+                </tr>
+                </table>
+            
+        </Section>
+
+        <article class="section">
+            <div class="community-category">
+                <h2>Community Success Stories</h2>
+                <br>
+                <img class="lightboxTrigger" src="_images/pages/news/News.jpg" alt="Community" width="800" height="400" id="lightbox-img">
+                <br>
+
+                <br>
+                <h3>We are proud to share some of the success stories from individuals and communities that have benefited from our IT services. These stories inspire us to continue our work and improve our services.</h3>
+                <br>
+                <h2>Here are some of the testimonials we have received:</h2>
+                    <blockquote>"Thanks to TacticsInTechIT, I was able to fix my fridge that was not cooling properly. They taught me how to troubleshoot the problem and replace the faulty parts. Now I can keep my food fresh and save money on electricity bills." - Nomsa, Mamelodi</blockquote>
+                    <blockquote>"I joined TacticsInTechIT's training program because I wanted to pursue a career in IT. They helped me learn how to code, design websites, and create apps. They also helped me get a job as a web developer at a local company. I am very grateful for their support and guidance." - Sipho, Soshanguve</blockquote>
+                    <blockquote>"We partnered with TacticsInTechIT to organize an IT Day at our school. They brought laptops, tablets, and smartphones for our students to use and learn from. They also showed us how to use online platforms and tools for education and communication. It was a fun and informative event that sparked our students' interest in IT." - Mr. Khumalo, Atteridgeville</blockquote>
+            </div>
+     
+        </article>
+
+        <button class="header__link" onclick="toTop()">Back To Top</button>
+
+        <hr>
+
+
+        <div id="lightbox">
+            <span id="closeBtn" onclick="closeLightbox()">&times;</span>
+            <img id="lightboxImage" src="" alt="Lightbox Image">
+        </div>
+        
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="col-1">
+                <h3>USEFUL LINKS</h3>
+                <a href="About Us.html">About Us</a>
+                <a href="Products and Services.html">Products and Services</a>
+                <a href="News.html">News</a>
+                <a href="Contact Us.html">Contact Us</a>
+            </div>
+            <br>
+
+            <div class="col-2">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="text" placeholder="Your Email Address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <br>
+
+            <div class="col-3">
+                <h3>CONTACT</h3>
+                <h4>683 Ivy Park, Paramount<br>Polokwane, Limpopo, SA</h4>
+            </div>
+            <hr>
+
+            <div class="footerBottom">
+                <h4>Copyright &copy;2023; Designed by TacticsInTechIT</h4>
+                <h4>Contact: tacticsintechit@gmail.com</h4>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript_assets/TacticsInIT.js"></script>
+
+</body>
+</html>

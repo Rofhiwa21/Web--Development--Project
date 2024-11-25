@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css_assets/TacticsInIT.css" rel="stylesheet" type="text/css"/>
+    <title>About Us</title>
+</head>
+<body>
+
+</body>
+
+    <header>
+
+        <a href="Homepage.html">
+            <img class="logo" src="_images\logo\TacticsInTechITLogo.png" width="150"/>
+        </a>
+
+        <nav class="nav__header container">
+            <ul class="header__menu">
+                <li><a class="header__link" href="Homepage.html">Homepage</a> </li>
+                <li><a class="header__link" href="About Us.html">About Us</a> </li>                
+                <li><a class="header__link" href="Products and Services.html">Products and Services</a> </li>
+                <li><a class="header__link" href="News.html">News</a> </li>               
+                <li><a class="header__link" href="Contact Us.html">Contact Us</a> </li>
+            </ul>
+
+            <div class="mobile-nav">
+                <nav>
+                    <ul class="mobile-nav__menu">
+                        <li><a class="mobile-nav__link" href="Homepage.html">Homepage</a></li>
+                        <li><a class="mobile-nav__link" href="About Us.html">About Us</a></li>
+                        <li><a class="mobile-nav__link" href="Products and Services.html">Products and Services</a></li>
+                        <li><a class="mobile-nav__link" href="News.html">News</a></li>
+                        <li><a class="mobile-nav__link" href="Contact Us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- <button class="header__bars"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button> -->
+        </nav>
+        <hr>
+
+    </header>    
+
+
+    <main>
+        <Section class="about container section">
+            <div class="about__content">
+                <h1 class="about__heading">About Us</h1>
+                <p class="about__paragraph">TacticsInTechIT is an IT troubleshooting organization that was founded in 2023 by a group of passionate IT professionals and volunteers who wanted to make a difference in rural communities.</p>
+                <p class="about__info">Our founders are:</p>
+                
+
+                <!-- Stakeholders -->
+                <div class="about__founder-container">
+
+                    <div class="about__founders">
+                    <h3 class="about__info-title">Rofhiwa Montjane</h3>
+                    <div class="about__img-wrapper about__img-container">
+                    <img class="lightboxTrigger" src="_images/pages/about_us/Stakeholder 1.jpg" alt="Founder 1" width="450" height="350">
+                    </div>
+                    <p class="about__description">A software engineer and web developer who has over 10 years of experience in the IT industry. He is the CEO and lead trainer of TacticsInTechIT.</p>                                              </div>
+                         
+                    <div class="about__founders" class="section">
+                    <h3 class="about__info-title">Ntombi Dlamini</h3>
+                    <div class="about__img-wrapper about__img-container">
+                    <img class="lightboxTrigger" src="_images/pages/about_us/Stakeholder 2.jpg" alt="Founder 2" width="450" height="350">
+                    </div>
+                    <p class="about__description">A computer scientist and data analyst who has a PhD in artificial intelligence. She is the CTO and lead researcher of TacticsInTechIT.</p>                                              </div>
+        
+                    <div class="about__founders about__founder3" class="section">
+                    <h3 class="about__info-title">Tharollo Makgatho</h3> 
+                    <div class="about__img-wrapper about__img-container">
+                    <img class="lightboxTrigger" src="_images/pages/about_us/Stakeholder 3.jpg" alt="Founder 3" width="450" height="350">
+                    </div>
+                    <p class="about__description">A hardware engineer and technician who has a diploma in electronics. He is the COO and lead repairer of TacticsInTechIT.</p>                   
+                    </div>
+                </div>
+            </div>
+        </Section>
+  
+    
+        <article class="section">
+            <h2 class="about__info">Our core values are:</h2>
+            <img class="lightboxTrigger" class="core-value__img" src="_images/pages/about_us/About Us 1.jpg" width="500" height="315">
+            <ol class="section">
+              <li><strong>Service</strong>: We are committed to providing high-quality and affordable IT solutions to our clients and partners.</li>
+              <li><strong>Education</strong>: We are dedicated to empowering our clients and partners with the knowledge and skills to use and maintain their IT devices.</li>
+              <li><strong>Innovation</strong>: We are constantly exploring new ways to improve our IT services and products, and to adapt to the changing needs of our clients and partners.</li>
+              <li><strong>Sustainability</strong>: We are mindful of the environmental impact of our IT activities, and we strive to reduce, reuse, and recycle our electronic waste.</li>
+              <li><strong>Community</strong>: We are proud to be part of the rural communities we serve, and we seek to build long-term relationships based on trust and respect.</li>
+            </ol>    
+            
+            <p class="about__paragraph">We believe that by sharing our IT expertise and resources with rural communities, we can help them overcome the challenges they face, such as unemployment, poverty, digital divide, and environmental degradation. We hope that by doing so, we can also inspire more people to join us in our mission to create a more inclusive and sustainable IT society.</p>
+        </article>
+
+        <button class="header__link" onclick="toTop()">Back To Top</button>
+
+        <hr>
+
+        <div id="lightbox">
+            <span id="closeBtn" onclick="closeLightbox()">&times;</span>
+            <img id="lightboxImage" src="" alt="Lightbox Image">
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="col-1">
+                <h3>USEFUL LINKS</h3>
+                <a href="About Us.html">About Us</a>
+                <a href="Products and Services.html">Products and Services</a>
+                <a href="News.html">News</a>
+                <a href="Contact Us.html">Contact Us</a>
+            </div>
+            <br>
+
+            <div class="col-2">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="text" placeholder="Your Email Address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <br>
+
+            <div class="col-3">
+                <h3>CONTACT</h3>
+                <h4>683 Ivy Park, Paramount<br>Polokwane, Limpopo, SA</h4>
+            </div>
+            <hr>
+
+            <div class="footerBottom">
+                <h4>Copyright &copy;2023; Designed by TacticsInTechIT</h4>
+                <h4>Contact: tacticsintechit@gmail.com</h4>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript_assets/TacticsInIT.js"></script>
+
+</body>
+</html>
