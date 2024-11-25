@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css_assets/TacticsInIT.css" rel="stylesheet" type="text/css"/>
+    <script src="javascript_assets/jquery-1.10.2.min.js"></script>
+    <script src="javascript_assets/lightbox-2.6.min.js"></script>
+    <script src="javascript_assets/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="css_assets/lightbox.css" media="screen"/>
+
+    <title>Home | TacticsInTechIT</title>
+</head>
+
+<body>
+    
+    <header>
+
+        <a href="Homepage.html">
+            <img class="logo" src="_images\logo\TacticsInTechITLogo.png" width="150"/>
+        </a>
+     
+ 
+        <nav class="nav__header container">
+            <ul class="header__menu">
+                <li><a class="header__link" href="Homepage.html">Homepage</a> </li>
+                <li><a class="header__link" href="About Us.html">About Us</a> </li>                
+                <li><a class="header__link" href="Products and Services.html">Products and Services</a> </li>
+                <li><a class="header__link" href="News.html">News</a> </li>               
+                <li><a class="header__link" href="Contact Us.html">Contact Us</a> </li>
+            </ul>
+
+                <div class="mobile-nav">
+                <nav>
+                    <ul class="mobile-nav__menu">
+                        <li><a class="mobile-nav__link" href="Homepage.html">Homepage</a></li>
+                        <li><a class="mobile-nav__link" href="About Us.html">About Us</a></li>
+                        <li><a class="mobile-nav__link" href="Products and Services.html">Products and Services</a></li>
+                        <li><a class="mobile-nav__link" href="News.html">News</a></li>
+                        <li><a class="mobile-nav__link" href="Contact Us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                </div>
+        </nav>
+        <hr>
+
+    </header>
+
+    <main class="container">
+      <Section class="section">
+
+            <div id="home">
+                <h1 class="home__title">Welcome to <br> TacticsInTechIT</h1><br>
+                <p class="home__description">TacticsInTechIT is an IT troubleshooting organization that provides affordable and accessible solutions for technological house appliances and ICT assets. Our mission is to empower rural communities with the knowledge and skills to maintain and repair their own devices, and to reduce electronic waste and pollution. Our vision is to create a network of IT experts and volunteers who can offer online and offline support to anyone in need.</p>
+            <br>
+            
+            <div class="homepage__img-container">
+
+            <div>
+            <article class="homepage__img-wrapper">
+                <a href="_images/pages/homepage/Homepage1.jpg" data-lightbox="image-gallery" data-title="Homepage1">
+                <img src="_images/pages/homepage/Homepage1.jpg" width="500" height="315">
+            </article>
+            <br>
+            <article class="homepage__img-wrapper">
+                <a href="_images/pages/homepage/Homepage2.jpg" data-lightbox="image-gallery" data-title="Homepage2">
+                <img src="_images/pages/homepage/Homepage2.jpg" width="500" height="315"></a>
+            </article>   
+            
+            </div>
+
+            <div>
+            <article class="homepage__img-wrapper">
+                <a href="_images/pages/homepage/Homepage3.jpg" data-lightbox="image-gallery" data-title="Homepage3">
+                <img src="_images/pages/homepage/Homepage3.jpg" width="500" height="315"></a>
+                
+            </article>
+            <br>
+            <article class="homepage__img-wrapper">
+                <a href="_images/pages/homepage/Homepage4.jpg" data-lightbox="image-gallery" data-title="Homepage4">
+                <img src="_images/pages/homepage/Homepage4.jpg" width="500" height="315"></a>
+                
+            </article>
+            </div>
+
+            </div>
+            <br>
+            <br>
+
+                <h2 class="homepage__label"> Our goals are to:</h2>
+                <ul class="homepage__features">
+                  <li class="homepage__list">Provide free or low-cost IT education and training to rural areas.</li>
+                  <li class="homepage__list">Offer online and offline IT troubleshooting and repair services to rural areas.</li>
+                  <li class="homepage__list">Collect and recycle electronic waste from rural areas.</li>
+                  <li class="homepage__list">Promote IT literacy and awareness among rural communities.</li>
+                </ul>
+                <br>
+            </div>
+        </Section>
+        <br>
+
+        <article>
+            <p class="home__description">We aim to address the problems of unemployment, poverty, digital divide, and environmental degradation that affect many rural areas in South Africa. We believe that by equipping rural people with IT skills and tools, we can help them improve their livelihoods, access information and opportunities, and protect the environment.</p>
+            <a href="About Us.html" class="header__link">Learn More About Our Services</a>
+        </article>
+
+        <div id="lightbox">
+            <span id="closeBtn" onclick="closeLightbox()">&times;</span>
+            <img id="lightboxImage" src="" alt="Lightbox Image">
+        </div>
+
+    </main>
+    <br>
+
+    <button class="header__link" onclick="toTop()">Back To Top</button>
+
+
+    <hr>
+
+
+    <footer>
+        
+        <div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeIPta_N478ZytpVEagnU9Gu_xhRf-y3_3rTLmw1v0zFN4EZA/viewform?embedded=true" width="640" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+
+        <div class="footer">
+            <div class="col-1">
+                <h3>USEFUL LINKS</h3>
+                <a href="About Us.html">About Us</a>
+                <a href="Products and Services.html">Products and Services</a>
+                <a href="News.html">News</a>
+                <a href="Contact Us.html">Contact Us</a>
+            </div>
+            <br>
+
+            <div>
+                <h3>CONTACT</h3>
+                <h4>683 Ivy Park, Paramount<br>Polokwane, Limpopo, SA</h4>
+            </div>
+            <hr>
+
+            <div class="footerBottom">
+                <h4>
+                    <script>
+					    var theDate=new Date()
+					    document.write("Copyright &copy; " + theDate.getFullYear())
+					    document.write(" - TacticsInTechIT | Last modified: ")
+					    var theModifiedDate=new Date(document.lastModified)
+					    document.write(theModifiedDate.toDateString())
+				    </script>
+				<br>Designed by "Rofhiwa-Montjane" Web Hosting
+                </h4>
+
+                <h4>Contact: tacticsintechit@gmail.com</h4>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript_assets/TacticsInIT.js"></script>
+
+</body>
+</html>

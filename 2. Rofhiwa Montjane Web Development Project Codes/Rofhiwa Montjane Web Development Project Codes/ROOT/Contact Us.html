@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css_assets/TacticsInIT.css" rel="stylesheet" type="text/css"/>
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <header>
+     
+        <a href="Homepage.html">
+            <img class="logo" src="_images\logo\TacticsInTechITLogo.png" width="150"/>
+        </a>
+
+        <nav class="nav__header container">
+            <ul class="header__menu">
+                <li><a class="header__link" href="Homepage.html">Homepage</a> </li>
+                <li><a class="header__link" href="About Us.html">About Us</a> </li>                
+                <li><a class="header__link" href="Products and Services.html">Products and Services</a> </li>
+                <li><a class="header__link" href="News.html">News</a> </li>               
+                <li><a class="header__link" href="Contact Us.html">Contact Us</a> </li>
+            </ul>
+
+            <div class="mobile-nav">
+                <nav>
+                    <ul class="mobile-nav__menu">
+                        <li><a class="mobile-nav__link" href="Homepage.html">Homepage</a></li>
+                        <li><a class="mobile-nav__link" href="About Us.html">About Us</a></li>
+                        <li><a class="mobile-nav__link" href="Products and Services.html">Products and Services</a></li>
+                        <li><a class="mobile-nav__link" href="News.html">News</a></li>
+                        <li><a class="mobile-nav__link" href="Contact Us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- <button class="header__bars"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button> -->
+        </nav>
+        <hr>
+
+        <hr> 
+    </header>
+
+    <main class="container">
+
+      <Section>
+            <div id="contact" class="section">
+                <h1>Contact Us</h1>
+                <img class="lightboxTrigger" src="_images/pages/contact_us/Contact Us.jpg" alt="Contact Us" width="800" height="400">
+                <p>We would love to hear from you. Whether you have a question, a comment, a feedback, or a request, please feel free to contact us using any of the methods below. We will get back to you as soon as possible.</p>
+        <br>
+        </Section>
+
+        <article>
+            <div class="contact-method">
+                <h2>Contact Form</h2>
+                <p>You can fill out this online form and submit it to us. Please provide your name, email address, subject, and message. We will reply to your email within 24 hours.</p>
+
+                    <form action="mailto:TacticsInTechIT@email.com" method="post" enctype="text/plain" id="contactForm">
+                        <td>
+                            <label for="name">Name:</label>
+                            <input type="text" name="myName" id="myName" value="Your name here" onfocus="this.value=''" required>
+                        </td>
+
+                        <td>
+                            <label for="subject">Subject:</label>
+                            <input type="text" name="mySubject" id="mySubject" value="Your subject here" onfocus="this.value=''" required>
+                        </td>
+
+                        <td>
+                            <label for="email">Email:</label>
+                            <input type="email" name="myEmail" id="myEmail" value="Your email here" onfocus="this.value=''" required>
+                        </td>
+
+                        <td>
+                            <label for="gender">Gender:</label>
+                            <select id="gender" name="gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+
+
+                        <td>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" cols="50" required></textarea>
+                        </td>
+
+
+                        <input type="submit" value="Join" onclick="validateForm()">
+                    </form>
+            </div>
+        <br> 
+        </article>
+        <article>
+            <div class="contact-method">
+                <h2>Email Address</h2>
+                <p>You can also send us an email directly to our official email address:<a href="tacticsintechit@gmail.com">[tacticsintechit@gmail.com].</a>  We will respond to your email within 24 hours.</p>
+              </div>
+        <br>
+
+            <div class="contact-method">
+                <h2>Phone Number</h2>
+                <p>If you prefer to talk to us on the phone, you can call us on our toll-free number: [080-123-4567]. Our phone lines are open from Monday to Friday, 9:00 am to 5:00 pm.</p>
+            </div>
+        <br>
+
+            <div class="contact-method">
+                <h2>Physical Address</h2>
+                <p>If you want to visit us in person, you can find us at our headquarters or local branches. Our physical address is: [683 Ivy Park Paramount Street, Polokwane, Limpopo, South Africa]. You can also use this map or directions to locate us.</p>
+                <img class="lightboxTrigger" src="_images/pages/contact_us/Ivy Park Map.png" alt="Map" width="1600" height="500">
+                <p>Directions: From the N1 highway, take the R37 exit towards Polokwane CBD. Turn left onto Main Street and drive for about 2 km. Our headquarters is on the right side of the road, next to the Post Office.</p>
+              </div>
+        </article>
+
+        <button class="header__link" onclick="toTop()">Back To Top</button>
+
+        <hr>
+
+        <div id="lightbox">
+            <span id="closeBtn" onclick="closeLightbox()">&times;</span>
+            <img id="lightboxImage" src="" alt="Lightbox Image">
+        </div>
+
+    </main>  
+
+
+    <footer>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by TacticsInTechIT</p>
+            <p>Contact: tacticsintechit@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="javascript_assets/TacticsInIT.js"></script>
+
+</body>
+</html>
